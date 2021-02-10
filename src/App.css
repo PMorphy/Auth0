@@ -1,0 +1,28 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 2rem;
+}
+
+button {
+  margin: 2rem 0;
+  padding: 1rem 2rem;
+  width: 120px;
+  cursor: pointer;
+}
+
+.card-content {
+  padding: 2rem;
+}
+
+.card-content h1 {
+  color: white;
+}
+
+.card-content h3 {
+  color: rgb(218, 214, 214);
+}
