@@ -11,7 +11,7 @@ function App() {
   return (
     <section className='container'>
       <div className='card'>
-        <div className='card-content text-center bg-primary'>
+        <div className='card-content text-center bg-secondary'>
           <LoginButton />
           <LogoutButton />
           <Profile />
