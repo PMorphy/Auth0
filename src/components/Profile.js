@@ -23,7 +23,10 @@ function Profile() {
         {loading ? (
           <h3>Loading List...</h3>
         ) : errors ? (
-          <h3>Something Went Wrong!</h3>
+          <>
+            <h3>Something Went Wrong! </h3>
+            <h3>Error: {errors}</h3>
+          </>
         ) : (
           <div className='people-list'>
             <table className='table'>
